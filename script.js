@@ -10,6 +10,8 @@ resetButton.addEventListener('click', generateGrid);
 
 function generateGrid() {
 
+    resetButton.textContent = 'Reset';
+
     if (container.lastChild == etch) {
         removeAllChildNodes(etch);
         divList= [];
