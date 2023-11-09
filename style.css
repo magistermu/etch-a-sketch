@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: auto;
+}
+
+#etch {
+    display: inline-flex;
+    width: 80vh;
+    aspect-ratio: 1 / 1;
+    border: 1px solid black; 
+}
+
+.wrap {
+    flex-grow: 1;
+}
+
+.point {
+    width: auto;
+    aspect-ratio: 1 / 1;
+    border: 1px solid black; 
+}
+
+.enabled {
+    background-color: black;
+}
+
+button {
+    margin-bottom: 2rem;
+}
